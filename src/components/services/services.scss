@@ -1,0 +1,30 @@
+.Services {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+	 rgba(0, 0, 0, 0.3)),
+		url(https://images.squarespace-cdn.com/content/v1/5894b0fa725e25cd299eed06/1490908424731-C332LABDWJ1G5GC4BXOP/Scales-of-Justice-background---legal-law-concept-491634912_7500x3925.jpeg?format=2500w);
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.flex-item {
+	padding: 5px;
+	width: 20%;
+	height: 15%;
+	margin-top: 30px;
+	line-height: 25px;
+	color: white;
+	font-weight: bold;
+	font-size: 1em;
+	text-align: center;
+}

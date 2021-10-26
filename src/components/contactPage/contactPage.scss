@@ -1,0 +1,107 @@
+
+.gverdi{
+    background-color: fade-in($color: #1F163F, $amount: 1);
+
+}
+.ContactItem{
+    
+    width: 100%;
+    &:not(:last-child){
+        margin-bottom: 1rem;
+    }
+    .contact{
+        display: flex;
+        align-items: center;
+        background-color:#636b8a ;
+        padding: 3rem 0;
+        .right-items{
+            margin-left: 2rem;
+        }
+        img{
+            padding: 1rem;
+            border: 1px solid #1b3299;
+            margin-left: 2rem;
+            width: 16%;
+        }
+        .right-items{
+            h6{
+                font-size: 1.4rem;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.ContactPage{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 6rem;
+    @media screen and (max-width: 1270px){
+        grid-template-columns: repeat(1, 1fr);
+        .map-sect{
+            width: 100%;
+            height: 50vh;
+            margin-bottom: 1rem;
+        }
+    }
+    .contact-sect{
+        width: 100%;
+    }
+}
+.map-sect{
+    width: 60%;
+    padding: 1rem;
+    background-color:#263364;
+    iframe{
+        width: 99%;
+        height: 99%;
+    }
+}
+
+.contact-sect{
+    display: grid;
+    justify-content: space-between;
+    grid-direction: column;
+}
+
+.title{
+    margin-bottom: 1px;
+}
+
+.Title{
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: white;
+    position: relative;
+    padding-bottom: 5rem;
+    letter-spacing: 3px;
+    &::before{
+        content: "";
+        bottom: 0;
+        position: absolute;
+        left: 0;
+        background-color: #0381ff38;
+        width: 6rem;
+        height: .4rem;
+        border-radius: 50px;
+       
+    }
+    &::after{
+        content: "";
+        bottom: 0;
+        position: absolute;
+        left: 0;
+        background-color: #037FFF;
+        width: 3rem;
+        height: .4rem;
+        border-radius: 50px;
+    }
+    span{
+        position: absolute;
+        top: 15%;
+        left: 0;
+        font-size: 5rem;
+        opacity: 0.07;
+    }
+}

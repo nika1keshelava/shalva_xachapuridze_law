@@ -1,0 +1,143 @@
+
+
+.topbar {
+	width: 100%;
+	height: 25px;
+	background-color: rgb(63, 62, 62);
+	color: #401010;
+	position: fixed;
+	top: 0;
+	z-index: 3;
+	transition: all 1s ease;
+	.wrapper {
+		padding: 2px 25%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		.left {
+			display: flex;
+			align-items: center;
+			.logo {
+				font-size: 10px;
+				margin-right: 10px;
+			}
+			.itemContainer {
+				display: flex;
+				align-items: center;
+				margin-left: 30px;
+				.icon {
+					font-size: 18px;
+					margin-right: 5px;
+				}
+				span {
+					font-size: 15px;
+					font-weight: 500;
+					font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+				}
+			}
+		}
+	}
+}
+
+
+.flex-container1 {
+	padding: 0;
+	margin-top: 23px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: rgb(121, 125, 126);
+}
+
+.logo {
+	margin: 0 0 0 0.45em;
+
+}
+.nav__logo{
+	margin-top: 5px;
+	width: 70px;
+	height: 70px;
+
+}
+.logo a {
+	color: rgb(28, 24, 22);
+}
+
+.logo,
+.navigation {
+	list-style: none;
+	text-transform: uppercase;
+}
+
+.logo a,
+.navigation a {
+	font-family:Arial, Helvetica, sans-serif ;
+	text-decoration: none;
+	letter-spacing: 0.15rem;
+}
+
+.navigation {
+	display: flex;
+}
+
+.navigation a {
+	display: block;
+	padding: 1em;
+	color: white;
+}
+
+.navigation a:hover {
+	background: #0d0e0d;
+}
+
+/* *********** media queries *********** */
+@media all and (max-width: 990px) {
+	.flex-container {
+		flex-direction: column;
+	}
+
+	.logo {
+		margin: 0;
+	}
+
+	.navigation {
+		width: 100%;
+		justify-content: space-around;
+	}
+}
+
+/* ****** ****** */
+@media all and (max-width: 600px) {
+	.logo {
+		margin: 0.25em 0;
+		align-self: left; /* align the logo to the left side of 'flex-container' */
+	}
+	
+
+	.navigation {
+		flex-direction: column;
+	}
+
+	.navigation a {
+		text-align: center;
+		padding: 10px;
+		border-top: 4px solid rgba(255, 255, 255, 0.3);
+		border-bottom: 4px solid rgba(0, 0, 0, 0.1);
+	}
+
+	.navigation li:last-of-type a {
+		border-bottom: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.topbar {
+		.wrapper {
+			padding: 0px 1%;
+			display: flex;
+			align-items:stretch;
+			justify-content: space-between;
+		}
+	}
+}

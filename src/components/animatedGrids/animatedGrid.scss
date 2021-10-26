@@ -1,0 +1,96 @@
+.AnimatedGrid {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+		url("https://wallpapercave.com/wp/wp8885244.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	.services__h1 {
+		position: relative;
+		top: 10px;
+		left: 40%;
+		font-size: 50px;
+		padding-bottom: 5%;
+
+		font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+			"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+		color: rgb(252, 252, 252);
+		text-shadow: 3px 3px 8px #97a09d, 3px 3px 8px #424292;
+	}
+	.parent {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 0.5fr;
+        grid-template-rows: repeat(6, 5fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+    }
+    .div1 {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    .div2 {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    .div3 {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+    .div4 {
+        grid-area: 4 / 1 / 5 / 2;
+    }
+    .div5 {
+        grid-area: 5 / 1 / 6 / 2;
+    }
+    .div6 {
+        grid-area: 6 / 1 / 7 / 2;
+    }
+    .div7 {
+        grid-area: 1 / 3 / 2 / 4;
+    }
+    .div8 {
+        grid-area: 2 / 3 / 3 / 4;
+    }
+    .div9 {
+        grid-area: 3 / 3 / 4 / 4;
+    }
+    .div10 {
+        grid-area: 4 / 3 / 5 / 4;
+    }
+    .div11 {
+        grid-area: 5 / 3 / 6 / 4;
+    }
+    .div12 {
+        grid-area: 6 / 3 / 7 / 4;
+    }
+    .div13 {
+        grid-area: 1 / 2 / 7 / 3;
+
+
+        #video{
+            margin-top: 200px;
+        }
+    }
+    
+}
+
+
+@media only screen and (max-width: 600px){
+    .parent {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(12, 1fr);
+        grid-column-gap: 6px;
+        grid-row-gap: 10px;
+        }
+        
+        .div1 { grid-area: 12 / 1 / 13 / 2; }
+        .div2 { grid-area: 11 / 1 / 12 / 2; }
+        .div3 { grid-area: 10 / 1 / 11 / 2; }
+        .div4 { grid-area: 9 / 1 / 10 / 2; }
+        .div5 { grid-area: 8 / 1 / 9 / 2; }
+        .div6 { grid-area: 7 / 1 / 8 / 2; }
+        .div7 { grid-area: 6 / 1 / 7 / 2; }
+        .div8 { grid-area: 5 / 1 / 6 / 2; }
+        .div9 { grid-area: 4 / 1 / 5 / 2; }
+        .div10 { grid-area: 3 / 1 / 4 / 2; }
+        .div11 { grid-area: 2 / 1 / 3 / 2; }
+        .div12 { grid-area: 1 / 1 / 2 / 2; }
+}
+

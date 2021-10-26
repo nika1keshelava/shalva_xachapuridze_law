@@ -33,10 +33,11 @@ export default function Testimonials() {
       desc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
     },
+    
   ];
   return (
     <div className="testimonials" id="testimonials">
-      <h1>Testimonials</h1>
+      <h1 id="testimonialshead">Testimonials</h1>
       <div className="container">
         {data.map((d) => (
           <div className={d.featured ? "card featured" : "card"}>
@@ -50,7 +51,9 @@ export default function Testimonials() {
               <img className="right" src={d.icon} alt="" />
             </div>
             <div className="center">
-              {d.desc}
+              <div className="teqsti">
+                {d.desc}
+              </div>
             </div>
             <div className="bottom">
               <h3>{d.name}</h3>

@@ -1,10 +1,12 @@
 @import "../../global.scss";
 
+
+
 .headline{
   margin-top: 10px;
 }
 .works {
-  background-color: crimson;
+  background-color: #1F163F;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,7 +53,8 @@
       .item {
         width: 80%;
         height: 100%;
-        background-color: white;
+        background-color: #A5A7B6
+        ;
         border-radius: 20px;
         display: flex;
         align-items: center;
@@ -130,10 +133,13 @@
 
           img {
             width: 500px;
-            transform: rotate(-10deg);
           }
         }
       }
     }
   }
+}
+
+body{
+  background-color: rgb(165, 42, 42);
 }

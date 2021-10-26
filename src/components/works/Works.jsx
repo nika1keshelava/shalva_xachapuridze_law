@@ -11,36 +11,30 @@ export default function Works() {
       icon: "./assets/man.png",
       title: t("funqciebi"),
       desc: t("funqcia1"),
-      img: "https://hannalawfirms.com/wp-content/uploads/2020/07/law-firm.jpg"
+      img: "./assets/pics/LAP_4673.JPG",
     },
     {
       id: "2",
       icon: "./assets/globe.png",
       title: t("funqciebi"),
       desc: t("funqcia2"),
-      img: "https://yourcompanyformationsblog.co.uk/wp-content/uploads/2016/12/Guide-to-company-shares.png"
+      img: "./assets/pics/LAP_4676.JPG"
     },
     {
       id: "3",
       icon: "./assets/writing.png",
       title: t("funqciebi"),
       desc: t("funqcia3"),
-      img: "https://socialais.kuldiga.lv/wp-content/uploads/2018/01/budget-1000x500.jpg"
+      img: "./assets/pics/LAP_4750.JPG"
     },
     {
       id: "4",
       icon: "./assets/writing.png",
       title: t("funqciebi"),
       desc: t("funqcia4"),
-      img: "https://blog.ipleaders.in/wp-content/uploads/2019/10/labour-law.jpg"
+      img: "./assets/pics/LAP_4699.JPG"
     },
-    {
-      id: "5",
-      icon: "./assets/writing.png",
-      title: t("funqciebi"),
-      desc: t("funqcia5"),
-      img: "https://investigationhotline.org/wp-content/uploads/2019/02/is-it-against-the-law-hire-private-investigator.jpg"
-    },
+    
   ];
 
   const handleClick = (way) => {

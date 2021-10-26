@@ -10,11 +10,12 @@ export default function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/man.png" alt="" />
+          <img  src="assets/shalvaMain.png" alt="" />
         </div>
       </div>
       <div className="right">
         <div className="wrapper">
+          <img id="logo" src="assets/LOGO/KInc_KHACHAPURIDZETEXT.png"   />
           <h2> {t("xach")} </h2>
           <br></br>
           

@@ -1,53 +1,14 @@
 @import "../../global.scss";
 
-.portfolio {
-  background-color: #b5ddd1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  h1 {
-    font-size: 30px;
-
-    @include mobile{
-      font-size: 20px;
-    }
-  }
-
-  
-
-  .introduction-section,
-.location-section,
-.questions-section {
-    max-width: 38em;
-    
-    margin-top: 1em;
+.portfolio{
+  margin: 0;
+  background-color: #667A89;
 }
 
-.introduction-section > p,
-.location-section > p,
-.questions-section,
-.content-footer > p {
-    font-weight: 300;
-    letter-spacing: 0.05em;
-}
-
-.questions-section > h2 {
-  font-family: "Gentium Book Basic", Georgia, serif;
-  font-size: 1.2em;
-  font-weight: bold;
-  
-  margin: 1em 0 1em 0;
-}
-
-
-
-
-h2 {
-  /* Typography Declarations */
-  font-family: "Gentium Book Basic", Georgia, serif;
-  font-size: 1.3em;
-  font-weight: bold;
-} 
-  
+.responsive {
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
 }

@@ -1,0 +1,106 @@
+.team{
+  background-color: #1F163F;
+}
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+
+    float: left;
+    width: 20%;
+    padding: 3px 30px;
+  }
+  
+  .teamh1{
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(252, 252, 252);
+    text-shadow: 3px 3px 8px #97a09d, 3px 3px 8px #424292;
+
+  }
+
+  .card {
+    background-color: rgb(24, 36, 75);
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px -8px black;
+    transition: all 1s ease;
+    padding: 20px;
+    position: relative;
+    box-shadow: 15px 14px 18px 15 rgba(0, 0, 0, 1);
+    margin: 8px;
+
+    &:hover{
+      transform: scale(1.03);
+  }
+  }
+  
+  .about-section {
+    padding: 30px;
+    text-align: center;
+    background-color: #08121b;
+    color: white;
+    
+  }
+  
+  .container {
+    padding: 0px 0px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    
+    color: rgb(160, 136, 28);
+  }
+  
+  
+  .overlay1 {
+    position: absolute; 
+    bottom: 50%; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.8); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  .card:hover .overlay1 {
+    opacity: 1;
+  }
+  .button {
+    font-family: 'Libre Baskerville', serif;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
