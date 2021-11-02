@@ -13,8 +13,8 @@
   .column {
 
     float: left;
-    width: 20%;
-    padding: 3px 30px;
+    width: 24%;
+    padding: 50px 15px;
   }
   
   .teamh1{
@@ -24,6 +24,7 @@
 
   }
 
+  
   .card {
     background-color: rgb(24, 36, 75);
     border-radius: 10px;
@@ -59,16 +60,18 @@
   
   .title {
     
-    color: rgb(160, 136, 28);
+    color: rgb(0, 0, 0);
   }
   
   
   .overlay1 {
     position: absolute; 
-    bottom: 50%; 
+    bottom: 0%; 
+    left: 0%;
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.8); /* Black see-through */
+    background: rgba(212, 175, 55, 0.459); /* Black see-through */
     color: #f1f1f1; 
+    height: 100%;
     width: 100%;
     transition: .5s ease;
     opacity:0;

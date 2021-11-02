@@ -21,17 +21,17 @@ function App() {
 	return (
 		<div className="app">
 			
-			<Navbar />
+			{/* <Navbar /> */}
 			<div className="sections">
 				
-				<AnimatedGrid />
+				{/* <AnimatedGrid />
 				<BlogsPage />
-				<Works />
+				<Works /> */}
 
 				
 				<Team />
 			</div>
-			<Footer />
+			{/* <Footer /> */}
 		</div>
 	);
 }
